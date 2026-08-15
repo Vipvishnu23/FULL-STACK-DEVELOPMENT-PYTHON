@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic SignIn Page</title>
+</head>
+<body>
+    <h1>Course Sign Up Page</h1>
+    <p>Please note: First name, Last name, Password and Email are required</p>
+    <form action="thankyou.html" method="get">
+        <label for='name'>
+            First Name:
+            <input id='name' type="text" name="first name" placeholder="First Name">
+            Last Name:
+            <input id='name' type="text" name="Last Name" placeholder="Last Name">
+        </label>
+        <br>
+        <br>
+        <label for='email'>
+            Email:
+            <input id='email' type="email" name="Email" placeholder="Name@Email.com">
+            Password:
+            <input id='email' type="password" name="password" placeholder="">
+        </label>
+        <p>Are you over the age of 18?</p>
+        <label for='ratio'>
+            Yes:
+            <input id='ratio' type="radio" name="Yes" value="Yes" required>
+            No:
+            <input id='ratio' type="radio" name="Yes" value="No">
+        </label>
+        <p>Do you have credit or debit card?</p>
+        <select>
+            <option>Credit card</option>
+            <option>Debit Card</option>
+        </select>
+        <input type="submit" name="submit" value="Sign Up">
+    </form>
+</body>
+</html>
